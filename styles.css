@@ -1,5 +1,5 @@
 html {
-    background-color: #344C4A;
+    background-color: #F6F8F5;
     font-family: 'Futura', sans-serif;
 }
 
@@ -10,13 +10,14 @@ header {
 }
 
 h1 {
-    color: #F4EEC5;
+    color: #D55957;
     font-weight: bold;
     font-size: 30px;
+    text-shadow: 1px 1px grey;
 }
 
 h2 {
-    color: #55B0A3;
+    color: #444370;
     line-height: 0px;
     font-weight: bold;
     font-size: 18px;
@@ -27,30 +28,50 @@ h2 {
 .intro {
     display: block;
     width: 80%;
-    background-color: #EACF8D;
-    color:#344C4A;
+    background-color: #F2AD85;
+    color: #444370;
     border-radius: 5px;
     padding: 5px;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
     margin-left: auto;   
     margin-right: auto; 
     margin-top: 40px;
+    box-shadow: 3px 3px grey;
 }
 
 #button {
     display: block;
     margin-left: auto;   
     margin-right: auto; 
-    height: 80px;
-    width: 200px;
-    background-color: #ED867D;
-    color: #344C4A;
+    height: 55px;
+    width: 210px;
+    background-color: #444370;
+    color: #D584B4;
     border-radius: 5px;
     margin-bottom: 30px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    box-shadow: 5px 5px 4px black;
+    transition: background-color box-shadow 1s;
+
+}
+
+#button:hover {
+    background-color:#D55957;
+    box-shadow: 0px 0px;
+    cursor: pointer;
+}
+
+#button:active {
+    background-color: #D584B4;
+    color: #444370;
+    box-shadow: 5px blue;
+}
+
+#button p {
+    margin: 0, auto;
 }
 
 #container {
@@ -61,7 +82,6 @@ h2 {
 }
 
 .item {
-    border: 1px solid black;
     width: 250px;
     height: 400px;
     text-align: center;
@@ -69,11 +89,11 @@ h2 {
 
 .title {
     width: 150px;
-    height: 50px;
-    background-color:#EACF8D;
+    height: 30px;
+    background-color:#F2AD85;
     border-radius: 5px;
     margin-left: auto;   
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .image {
@@ -89,7 +109,8 @@ h2 {
 .name {
     width: 175px;
     height: 50px;
-    background-color: #ED867D;
+    background-color: #D584B4;
     margin-left: auto;   
     margin-right: auto; 
+    font-size: 26px;
 }
