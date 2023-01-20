@@ -30,13 +30,17 @@ const chooseMeal = () => {
 }
 
 const chooseDrink = () => {
-    let drinkChoice = drinks[Math.floor(Math.random()*drinks.length)]
-    drinkTarget.innerHTML = drinkChoice
+    let choice = Math.floor(Math.random()*drinks.length)
+    let drinkChoice = drinks[choice];
+    drinkTarget.innerHTML = drinkChoice;
+    drinkImage.src = drinkImages[choice];
 }
 
 const chooseDessert = () => {
-    let dessertChoice = desserts[Math.floor(Math.random()*desserts.length)]
-    dessertTarget.innerHTML = dessertChoice
+    let choice = Math.floor(Math.random()*desserts.length)
+    let dessertChoice = desserts[choice];
+    dessertTarget.innerHTML = dessertChoice;
+    dessertImage.src = dessertImages[choice];
 }
 
 //Makes Buttons active

@@ -12,7 +12,7 @@ header {
 h1 {
     color: #D55957;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 1px 1px grey;
 }
 
@@ -20,7 +20,7 @@ h2 {
     color: #444370;
     line-height: 0px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* Section (Main Body) Styling */
@@ -45,16 +45,18 @@ h2 {
     margin-left: auto;   
     margin-right: auto; 
     height: 55px;
-    width: 210px;
+    width: 220px;
     background-color: #444370;
     color: #D584B4;
     border-radius: 5px;
     margin-bottom: 30px;
+    margin-top:30px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     box-shadow: 5px 5px 4px black;
     transition: background-color box-shadow 1s;
+    text-shadow: 2px 2px black;
 
 }
 
@@ -67,7 +69,7 @@ h2 {
 #button:active {
     background-color: #D584B4;
     color: #444370;
-    box-shadow: 5px blue;
+    text-shadow: 0 0;
 }
 
 #button p {
@@ -89,7 +91,7 @@ h2 {
 
 .title {
     width: 150px;
-    height: 30px;
+    height: 26px;
     background-color:#F2AD85;
     border-radius: 5px;
     margin-left: auto;   
@@ -103,7 +105,7 @@ h2 {
     margin-bottom: 20px;
     margin-left: auto;   
     margin-right: auto; 
-    border: 1px black solid;
+    border: 5px #444370 groove;
 }
 
 img {
@@ -114,9 +116,10 @@ img {
 
 .name {
     width: 175px;
-    height: 50px;
+    height: 38px;
     background-color: #D584B4;
     margin-left: auto;   
     margin-right: auto; 
     font-size: 26px;
+    border: 3px #444370 groove;
 }
