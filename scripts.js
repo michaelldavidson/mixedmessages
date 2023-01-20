@@ -1,10 +1,10 @@
 //Sets up choices for the program
 
-let meals = ['Pizza', 'Burger', 'Pasta', 'Chicken Wings'];
-let mealImages =['./images/pizza.jpg', './images/burger.jpg', './images/pasta.jpg', './images/chicken.jpg'];
+let meals = ['Pizza', 'Burger', 'Pasta', 'Chicken Wings', 'Nachos', 'Steak', 'Noodles', 'Ramen'];
+let mealImages =['./images/pizza.jpg', './images/burger.jpg', './images/pasta.jpg', './images/chicken.jpg', './images/nachos.jpg', './images/steak.jpg', './images/noodles.jpg', './images/ramen.jpg'];
 
-let drinks = ['Coffee', 'Tea', 'Iced Coffee', 'Milkshake', 'Beer'];
-let drinkImages =['./images/coffee.jpg', './images/tea.jpg', './images/icedcoffee.jpg', './images/milkshake.jpg', './images/beer.jpg'];
+let drinks = ['Coffee', 'Tea', 'Iced Coffee', 'Milkshake', 'Beer', 'Wine'];
+let drinkImages =['./images/coffee.jpg', './images/tea.jpg', './images/icedcoffee.jpg', './images/milkshake.jpg', './images/beer.jpg', './images/wine.jpg'];
 
 let desserts = ['Ice Cream', 'Cake', 'Pie', 'Donuts', 'Ais Kachang', 'Halo Halo'];
 let dessertImages =['./images/icecream.jpg', './images/cake.jpg', './images/pie.jpg', './images/donuts.jpg', './images/aiskachang.jpg', './images/halohalo.jpg'];
